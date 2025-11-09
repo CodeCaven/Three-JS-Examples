@@ -16,7 +16,7 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 renderer.setAnimationLoop( animate );
 document.body.appendChild( renderer.domElement );
 
-// add-ons (not sure about yet)
+// add-ons ... mouse controls, model loader
 const controls = new OrbitControls( camera, renderer.domElement );
 const loader = new GLTFLoader();
 
